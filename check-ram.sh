@@ -2,7 +2,7 @@
 #check your ram memory
 free_ram=$(free -mt | grep Total | awk '{print $4}')
 
-## check rehefa kelikely le ram
+## check rehefa kelikely le ram in MB 
 if [[ "$free_ram" -le 10000  ]]
          then
         ## get top processes consuming system memory and save to temporary file 
