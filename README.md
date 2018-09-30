@@ -1,5 +1,5 @@
 # linux-teste
-Linux tricks you need :) 
+Linux tricks you need :stuck_out_tongue_winking_eye:
 
 Platform  Ubuntu
 
