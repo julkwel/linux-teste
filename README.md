@@ -7,4 +7,4 @@ Test pass in Ubuntu 18.04 and elementary
 
 If Your need to pass it in crontab , please show https://github.com/julkwel/cron-git-pull
 
-** Happy hacking **
+**Happy hacking !!!**
