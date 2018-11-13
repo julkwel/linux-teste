@@ -2,7 +2,7 @@
 
 :smiley: *aza kamokamo hamaky e*
 
-1- Soraty eo amin'ny terminal anie ny hoe 
+1- Hanombohantsika an'azy aloha dia sokafy ny teminal ctrl+alt+t izy izay, aveo soraty eo anie ny hoe 
 
 **pwd** e, fa tonga dia hitanlah hoe aiza ny directory misy anlah zao :stuck_out_tongue_closed_eyes:
 
