@@ -1,4 +1,4 @@
-## Lisitr'ireo kaomandy base ilaina amin'ny linux
+## Lisitr'ireo commandes base ilaina amin'ny linux
 
 :smiley: *aza kamokamo hamaky e*
 
