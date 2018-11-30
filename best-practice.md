@@ -1,3 +1,5 @@
+## Best Practice for linux user
+
 1) Keep System updated
 
 Always keep system updated with latest releases patches, security fixes and kernel when it’s available. Applying security patches is an important part of maintaining Linux server and Linux provides all necessary tools to keep your system updated.
@@ -154,13 +156,15 @@ On CentOS 7/RHEL 7 server use the following commands:
 18) World-Writable Files
 Anyone can modify world-writable file resulting into a security issue. Use the following command to find all world writable and sticky bits set files:
 
-find /dir -xdev -type d \( -perm -0002 -a ! -perm -1000 \) -print
+    find /dir -xdev -type d \( -perm -0002 -a ! -perm -1000 \) -print
 
 You need to investigate each reported file and either set correct user and group permission or remove it.
 
 19 No-Owner Files
 Files not owned by any user or group can pose a security problem. Just find them with the following command which do not belong to a valid user and a valid group
 
-find /dir -xdev \( -nouser -o -nogroup \) -print
+    find /dir -xdev \( -nouser -o -nogroup \) -print
 
 You need to investigate each reported file and either assign it to an appropriate user and group or remove it.
+
+Happy Hacking !!!
