@@ -13,16 +13,16 @@ For best  practices you must protect Linux servers physical console access. Conf
 3) Avoid Using FTP, Telnet, And Rlogin / Rsh Services
 Use secure medium to transfer files like scp, sftp etc.. and delete other services like ftp, telnet etc..
 
-    yum erase xinetd ypserv tftp-server telnet-server rsh-server
+        yum erase xinetd ypserv tftp-server telnet-server rsh-server
 
 4) Delete unnecessary packages Minimize Software to Minimize Vulnerability
 It is important to delete unnecessary package to minimize vulnerability.
 
-    yum list installed
+        yum list installed
 
-    yum list packageName
+        yum list packageName
 
-    yum remove packageName
+        yum remove packageName
 
 5) Disable Unwanted Services from server
 Disable all unnecessary services and daemons (services that runs in the background).
