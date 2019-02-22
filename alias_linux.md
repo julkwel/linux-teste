@@ -13,6 +13,11 @@ Saro-pady ny fichier misy ireo bash `bashrc`rehetra ary tsy tokony ho kitihana m
 
 Afaka manoratra hianao avy eo hoe `jul-update`
 
+Hoan'ny script
+
+`alias monscript='sh -c /home/$USER/path/to/script.sh'`
+
+
 Mba ahatonga ny commande ataonao ho pris en charge dia reloadeo ny bashrc
 
 `source ~/.bashrc`
@@ -24,7 +29,4 @@ Mba ahafahanao mijery ireo alias ao aminao dia tapeo fotsiny ny `alias`
 Raha te-hanala alias hianao dia 
 `unalias mon_alias`
 
-Hoan'ny script
-
-`alias monscript='sh -c /home/$USER/path/to/script.sh'`
 
